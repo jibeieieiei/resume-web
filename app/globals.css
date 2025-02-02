@@ -19,3 +19,18 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@media print {
+  @page {
+    margin: 10px;
+    width: 210mm;
+    height: 297mm;
+    padding: 0;
+  }
+  /* #section-to-print {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+  } */
+}

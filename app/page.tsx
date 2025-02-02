@@ -1,101 +1,71 @@
-import Image from "next/image";
-
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+  const tempDiv = (
+    <div>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa repudiandae
+      tempora exercitationem eaque incidunt veritatis? Illo accusantium
+      laudantium quos, provident neque similique modi ex voluptate earum
+      exercitationem omnis unde inventore dignissimos magnam. In labore illum
+      delectus consequuntur soluta repellendus architecto atque ex pariatur
+      incidunt ab, perferendis magnam consequatur enim rem maxime culpa. Placeat
+      facere asperiores eveniet porro deleniti ex quibusdam debitis vel minus
+      cumque alias quo at nihil, nesciunt earum dolore, eligendi dolorum maiores
+      omnis accusamus quas magni. Maxime asperiores provident error cum ipsa
+      nobis explicabo sint odit aspernatur magnam, a saepe quasi ipsum qui
+      eveniet culpa ad ea deserunt harum quae illum laboriosam, dolorem eligendi
+      ipsam! Atque asperiores odio quia quasi necessitatibus cumque veritatis
+      ducimus excepturi non quae, numquam adipisci dolorem libero vel amet quod
+      distinctio quis commodi, quibusdam ea praesentium minima a natus? Sapiente
+      hic nostrum enim voluptatem error vel quod commodi cum atque, distinctio,
+      ex sed facere aliquam accusamus voluptates quidem omnis. Quos, doloremque
+      quidem! Perferendis iusto necessitatibus temporibus libero dolor fuga
+      dolore laborum totam nobis modi quaerat aut et sint ratione architecto
+      mollitia expedita ut neque deleniti, qui harum. Quam quas harum unde
+      recusandae sequi at pariatur officiis soluta, corporis esse. Aut, beatae
+      doloremque, quas labore, necessitatibus iure quisquam velit nobis neque
+      dolor culpa distinctio nihil aperiam ab in iste obcaecati itaque pariatur
+      delectus repellendus eius libero? Magni accusamus ipsa exercitationem,
+      repellendus facere praesentium sapiente mollitia quod distinctio, vel
+      assumenda asperiores eum. Saepe quia consequuntur unde harum, minima
+      doloremque recusandae esse error similique placeat cumque aperiam numquam
+      molestiae consectetur impedit eius sed optio ex expedita quo labore nulla
+      cum ratione! Aspernatur pariatur repellendus sed ipsum eum recusandae
+      laboriosam veniam illum esse natus fugiat, odio sequi fuga minima, dolorem
+      doloribus id. Qui ad distinctio suscipit labore excepturi quae cupiditate
+      repudiandae quas dolorum nihil nulla facilis vel quam, illo incidunt
+      fugiat consequatur accusantium facere soluta molestias reiciendis sit
+      alias, accusamus ipsum. Illum optio quidem doloribus possimus ad. Pariatur
+      ipsam, tempora soluta modi iusto, iste, nam dignissimos magni voluptatibus
+      eius deleniti quas? Voluptatum magni, voluptatibus dolore excepturi
+      praesentium labore pariatur distinctio nesciunt odit cum a ratione libero
+      deserunt. Fuga aspernatur at similique ipsum, dolores porro velit rerum
+      ducimus quibusdam, dignissimos sequi cupiditate, corporis nisi odit sint
+      est minima officia. Error ipsam molestias harum modi rerum! Reprehenderit,
+      odio asperiores quia explicabo labore tempora vero rerum molestiae ducimus
+      quod animi dolorum magni minima architecto voluptatum quo ullam pariatur,
+      rem atque et odit repellat provident delectus? Consectetur fugit numquam
+      vel autem dicta quod distinctio quae at perferendis doloremque sed
+      repellendus quasi harum, iste quo, molestias est. Inventore ipsa ducimus
+      culpa suscipit sequi aliquam ipsum doloribus laborum pariatur atque
+      adipisci optio qui officia quae nemo dignissimos minus illum blanditiis
+      soluta nam, at voluptatibus error quis est! Tempore voluptas magni eum a
+      odit ea suscipit, doloremque eius quisquam! Dicta sit asperiores
+      consequatur necessitatibus quod quisquam quis, ut expedita enim tenetur
+      magnam quam voluptatum quasi doloribus dolore fuga rem iste earum
+      cupiditate? Sint beatae laudantium eveniet voluptatibus fugiat ratione
+      assumenda ab sit nisi. Iste, eius?
     </div>
-  );
+  )
+  return (
+    <main className="w-full h-full flex flex-col justify-center items-center mx-auto">
+      {/*  h-[297mm] */}
+      <div
+        className="w-[210mm] p-4"
+        // id="section-to-print"
+      >
+        <div>eiei</div>
+        {tempDiv}
+        {tempDiv}
+      </div>
+    </main>
+  )
 }
