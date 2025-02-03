@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Info = () => {
   return (
-    <div className="w-full flex justify-between items-center">
+    <div className="w-full max-sm:flex-col flex justify-between items-center">
       <div className="text-left w-48">
         <div>{INFO.tel}</div>
         <div>{INFO.email}</div>
