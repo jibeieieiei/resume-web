@@ -15,9 +15,9 @@ const Info = () => {
         <div>({INFO.nickName})</div>
       </div>
       <div className="text-right w-48 flex flex-col *:underline">
-        <Link href={`https://${INFO.github}`}>{INFO.github}</Link>
-        <Link href={`https://${INFO.website}`}>{INFO.website}</Link>
-        <Link href={`https://${INFO.linkedIn}`}>{INFO.linkedIn}</Link>
+        <Link href={INFO.github.link}>{INFO.github.display}</Link>
+        <Link href={INFO.website.link}>{INFO.website.display}</Link>
+        <Link href={INFO.linkedIn.link}>{INFO.linkedIn.display}</Link>
       </div>
     </div>
   )
