@@ -1,19 +1,20 @@
 import React from 'react'
+import { EDUCATION } from '../_constants/data'
 
 const Education = () => {
   return (
-    <div className="w-full flex flex-col gap-1">
+    <div className="w-full flex flex-col gap-2">
       <section className="text-2xl font-bold uppercase text-left">
         Education
       </section>
       <hr className="border-t border-gray-700" />
       <section>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-        architecto, iste, fugit praesentium doloremque amet veniam mollitia in
-        maiores officiis ipsam delectus eveniet quaerat distinctio voluptatum
-        eius, sint eaque? Necessitatibus rem ipsum deserunt perspiciatis
-        cupiditate. Tempora omnis obcaecati neque atque ut suscipit aspernatur
-        ad dolorem, eveniet animi ducimus enim maxime!
+        {EDUCATION.map((item) => (
+          <div key={item.title} className="flex flex-col">
+            <span className="font-semibold">{item.title}</span>
+            <span>{item.detail}</span>
+          </div>
+        ))}
       </section>
     </div>
   )
