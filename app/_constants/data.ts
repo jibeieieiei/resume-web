@@ -87,21 +87,21 @@ export const PROJECTS = [
     detail: [
       'The purpose of this study is creating a stock forecast website, mainly Thai stocks in SET50index. In addition to using a Time Series model due to its fine sequential data, developing the website by adding various features such as trading strategies, Backtesting, etc. ',
     ],
-    link: '',
+    link: 'https://github.com/jibeieieiei/frontend-th-forecasting',
   },
   {
     title: 'Kulony (Web Application using React)',
     detail: [
       'Kulony, which stands for Kasetsart University and colony, is the online community for KU personnels. It is the place where people discuss and share their campus lifestyles such as recommended subjects, trendy food  and other matters within the university. JavaScript, React, HTML and CSS are used in the project.',
     ],
-    link: '',
+    link: 'https://github.com/KUlony',
   },
   {
     title: 'Coffee Shop Reservation (Web Application using React)',
     detail: [
       'Due to the COVID situation, some coffee shops have to limit the number of people. This web app helps to check the cafe availability status and respectively make a reservation. In the process, there is also a simulation with the hardware installed in the mock coffee shop. JavaScript, React and HTML are used in the project.',
     ],
-    link: '',
+    link: 'https://github.com/jibeieieiei/exceed18-coffee-front',
   },
 ]
 
