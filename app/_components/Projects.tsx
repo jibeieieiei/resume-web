@@ -1,5 +1,6 @@
 import React from 'react'
 import { PROJECTS } from '../_constants/data'
+import Link from 'next/link'
 
 const Projects = () => {
   return (
@@ -11,7 +12,14 @@ const Projects = () => {
       <section className="flex flex-col gap-1">
         {PROJECTS.map((item) => (
           <div className="flex flex-col gap-1" key={item.title}>
-            <span className="font-semibold">{item.title}</span>
+            <Link
+              className={`font-semibold ${
+                item.link ? 'underline cursor-pointer' : 'cursor-default'
+              }`}
+              href={item.link}
+            >
+              {item.title}
+            </Link>
             <ul className="list-disc pl-4">
               {item.detail.map((dt) => (
                 <li key={dt}>{dt}</li>
