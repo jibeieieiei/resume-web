@@ -66,7 +66,7 @@ export const WORK_EXPERIENCES = [
   {
     category: 'Cooperative student',
     title: 'Machine Learning Engineer at Erudite co, Ld.',
-    date: 'Apr 2023-Nov 2023',
+    date: 'Apr 2023 - Nov 2023',
     detail:
       'I have been working on a project on trading strategies using Machine Learning like Reinforcement Learning, Random Forest, In addition, I have implemented various trading strategies to meet customer needs.',
     link: '',
@@ -74,8 +74,9 @@ export const WORK_EXPERIENCES = [
   {
     category: 'Full Time',
     title: 'Software Engineer at Erudite co, Ld.',
-    date: '',
-    detail: 'in progress...',
+    date: 'Jun 2024 - Present',
+    detail:
+      'I was responsible for developing websites using Next.js and Tailwind CSS, ensuring high-quality code by utilizing SonarQube for code analysis and improvement.',
     link: '',
   },
 ]
