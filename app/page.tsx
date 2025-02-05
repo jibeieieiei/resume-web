@@ -1,3 +1,4 @@
+import Activities from './_components/Activities'
 import Education from './_components/Education'
 import Info from './_components/Info'
 import Menu from './_components/Menu'
@@ -15,6 +16,7 @@ export default function Home() {
         <Tools />
         <WorkExperiences />
         <Projects />
+        <Activities />
       </div>
     </main>
   )

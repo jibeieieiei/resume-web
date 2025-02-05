@@ -116,14 +116,14 @@ export const ACTIVITIES = [
     detail:
       'Dongtan Camp is an activity for high school students to get to know various fields of study in engineering at Kasetsart University. I was a tutor teaching about basic programming in Python by using Google Colab, Scratch game. It is a great opportunity to share my experience to them.',
   },
-  {
-    title: 'BarCamp Bangkhen',
-    detail:
-      'I was a photographer in Barcamp, a short talk where the speaker can present an idea or a thought in any topic. ',
-  },
-  {
-    title: 'SEED: ZERO',
-    detail:
-      'Being a photographer in SEED: ZERO which is an orientation about Frontend, Backend and Hardware.',
-  },
+  // {
+  //   title: 'BarCamp Bangkhen',
+  //   detail:
+  //     'I was a photographer in Barcamp, a short talk where the speaker can present an idea or a thought in any topic. ',
+  // },
+  // {
+  //   title: 'SEED: ZERO',
+  //   detail:
+  //     'Being a photographer in SEED: ZERO which is an orientation about Frontend, Backend and Hardware.',
+  // },
 ]
