@@ -8,17 +8,28 @@ const WorkExperiences = () => {
         Work Experiences
       </section>
       <hr className="border-t border-gray-700" />
-      <section className="flex flex-col gap-1">
+      <section className="flex flex-col gap-2">
         {WORK_EXPERIENCES.map((item) => (
           <div key={item.title} className="flex flex-col gap-1">
-            <div className="flex justify-between items-center w-full font-semibold">
+            <div className="flex justify-between items-center w-full font-semibold text-lg">
               <span className="flex-1">{item.category}</span>
               <span>{item.title}</span>
               <span className="flex-1 text-right">{item.date}</span>
             </div>
-            <ul className="list-disc pl-4">
-              <li>{item.detail}</li>
-            </ul>
+            {item.projects.map((p) => (
+              <div className="flex flex-col gap-1" key={p.name}>
+                <span className="font-semibold underline">{p.name}</span>
+                <ul className="list-disc pl-4">
+                  {p.detail.map((d) => (
+                    <li key={d}>{d}</li>
+                  ))}
+                </ul>
+                <span>
+                  <span className="font-semibold mr-2">Skills: </span>
+                  <span>{p.skills}</span>
+                </span>
+              </div>
+            ))}
           </div>
         ))}
       </section>

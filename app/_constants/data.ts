@@ -53,7 +53,7 @@ export const TOOLS = [
   },
   {
     category: 'Tools',
-    detail: 'Git, Postman, Markdown, SonarQube',
+    detail: 'Git, Postman, Markdown, SonarQube, Figma',
   },
   {
     category: 'Other',
@@ -67,16 +67,44 @@ export const WORK_EXPERIENCES = [
     category: 'Cooperative student',
     title: 'Machine Learning Engineer at Erudite co, Ld.',
     date: 'Apr 2023 - Nov 2023',
-    detail:
-      'I have been working on a project on trading strategies using Machine Learning like Reinforcement Learning, Random Forest, In addition, I have implemented various trading strategies to meet customer needs.',
+    projects: [
+      {
+        name: '',
+        detail: [
+          'I have been working on a project on trading strategies using Machine Learning like Reinforcement Learning, Random Forest, In addition, I have implemented various trading strategies to meet customer needs.',
+        ],
+        link: '',
+        skills:
+          'Python, Git, Pandas, Numpy, Kedro, Machine Learning Fundamentals',
+      },
+    ],
     link: '',
   },
   {
     category: 'Full Time',
     title: 'Software Engineer at Erudite co, Ld.',
     date: 'Jun 2024 - Present',
-    detail:
-      'I was responsible for developing websites using Next.js and Tailwind CSS, ensuring high-quality code by utilizing SonarQube for code analysis and improvement.',
+    projects: [
+      {
+        name: 'PWA Web Application',
+        detail: [
+          'Developed a web application for The Government Lottery Office (GLO), focusing on structuring the web layout and responsive web design such as the Check Lottery Result page and My Lottery page.',
+        ],
+        link: '',
+        skills:
+          'NextJS, TypeScript, TailwindCSS, Git, Figma, Responsive Web Design, Shadcn',
+      },
+      {
+        name: 'GLO Web Application (In Progress)',
+        detail: [
+          'Developing a web application for the back-office system of The Government Lottery Office (GLO).',
+          'Including creating page layouts follow by design, creating various components such as tables and sidebar, generating customizable PDFs for contract creation and API integrations.',
+        ],
+        link: '',
+        skills:
+          'NextJS, TypeScript, TailwindCSS, SonarQube, Git, Postman, Figma, Axios, Responsive Web Design, Shadcn',
+      },
+    ],
     link: '',
   },
 ]
