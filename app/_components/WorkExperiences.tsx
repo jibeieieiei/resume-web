@@ -18,7 +18,7 @@ const WorkExperiences = () => {
             </div>
             {item.projects.map((p) => (
               <div className="flex flex-col gap-1" key={p.name}>
-                <span className="font-semibold underline">{p.name}</span>
+                <span className="font-semibold">{p.name}</span>
                 <ul className="list-disc pl-4">
                   {p.detail.map((d) => (
                     <li key={d}>{d}</li>

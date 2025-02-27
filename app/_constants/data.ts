@@ -64,23 +64,6 @@ export const TOOLS = [
 
 export const WORK_EXPERIENCES = [
   {
-    category: 'Cooperative student',
-    title: 'Machine Learning Engineer at Erudite co, Ld.',
-    date: 'Apr 2023 - Nov 2023',
-    projects: [
-      {
-        name: '',
-        detail: [
-          'I have been working on a project on trading strategies using Machine Learning like Reinforcement Learning, Random Forest, In addition, I have implemented various trading strategies to meet customer needs.',
-        ],
-        link: '',
-        skills:
-          'Python, Git, Pandas, Numpy, Kedro, Machine Learning Fundamentals',
-      },
-    ],
-    link: '',
-  },
-  {
     category: 'Full Time',
     title: 'Software Engineer at Erudite co, Ld.',
     date: 'Jun 2024 - Present',
@@ -106,6 +89,25 @@ export const WORK_EXPERIENCES = [
       },
     ],
     link: '',
+    mt: '',
+  },
+  {
+    category: 'Cooperative student',
+    title: 'Machine Learning Engineer at Erudite co, Ld.',
+    date: 'Apr 2023 - Nov 2023',
+    projects: [
+      {
+        name: '',
+        detail: [
+          'I have been working on a project on trading strategies using Machine Learning like Reinforcement Learning, Random Forest, In addition, I have implemented various trading strategies to meet customer needs.',
+        ],
+        link: '',
+        skills:
+          'Python, Git, Pandas, Numpy, Kedro, Machine Learning Fundamentals',
+      },
+    ],
+    link: '',
+    mt: '',
   },
 ]
 
@@ -116,6 +118,7 @@ export const PROJECTS = [
       'The purpose of this study is creating a stock forecast website, mainly Thai stocks in SET50index. In addition to using a Time Series model due to its fine sequential data, developing the website by adding various features such as trading strategies, Backtesting, etc. ',
     ],
     link: 'https://github.com/jibeieieiei/frontend-th-forecasting',
+    mt: '',
   },
   {
     title: 'Kulony (Web Application using React)',
@@ -123,6 +126,7 @@ export const PROJECTS = [
       'Kulony, which stands for Kasetsart University and colony, is the online community for KU personnels. It is the place where people discuss and share their campus lifestyles such as recommended subjects, trendy food  and other matters within the university. JavaScript, React, HTML and CSS are used in the project.',
     ],
     link: 'https://github.com/KUlony',
+    mt: 'print:mt-[84px]',
   },
   {
     title: 'Coffee Shop Reservation (Web Application using React)',
@@ -130,6 +134,7 @@ export const PROJECTS = [
       'Due to the COVID situation, some coffee shops have to limit the number of people. This web app helps to check the cafe availability status and respectively make a reservation. In the process, there is also a simulation with the hardware installed in the mock coffee shop. JavaScript, React and HTML are used in the project.',
     ],
     link: 'https://github.com/jibeieieiei/exceed18-coffee-front',
+    mt: '',
   },
 ]
 

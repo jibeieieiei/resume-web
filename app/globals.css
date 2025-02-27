@@ -23,7 +23,6 @@ body {
 @media print {
   @page {
     margin: 10px;
-    padding: 0;
   }
   /* for selected section whatever you want to print */
   #section-to-print {

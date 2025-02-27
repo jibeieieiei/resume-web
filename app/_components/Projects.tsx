@@ -11,7 +11,7 @@ const Projects = () => {
       <hr className="border-t border-gray-700" />
       <section className="flex flex-col gap-1">
         {PROJECTS.map((item) => (
-          <div className="flex flex-col gap-1" key={item.title}>
+          <div className={`flex flex-col gap-1 ${item.mt}`} key={item.title}>
             <Link
               className={`font-semibold ${
                 item.link ? 'underline cursor-pointer' : 'cursor-default'
