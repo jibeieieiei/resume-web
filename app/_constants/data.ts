@@ -64,23 +64,6 @@ export const TOOLS = [
 
 export const WORK_EXPERIENCES = [
   {
-    category: 'Cooperative student',
-    title: 'Machine Learning Engineer at Erudite co, Ld.',
-    date: 'Apr 2023 - Nov 2023',
-    projects: [
-      {
-        name: '',
-        detail: [
-          'I have been working on a project on trading strategies using Machine Learning like Reinforcement Learning, Random Forest, In addition, I have implemented various trading strategies to meet customer needs.',
-        ],
-        link: '',
-        skills:
-          'Python, Git, Pandas, Numpy, Kedro, Machine Learning Fundamentals',
-      },
-    ],
-    link: '',
-  },
-  {
     category: 'Full Time',
     title: 'Software Engineer at Erudite co, Ld.',
     date: 'Jun 2024 - Present',
@@ -103,6 +86,23 @@ export const WORK_EXPERIENCES = [
         link: '',
         skills:
           'NextJS, TypeScript, TailwindCSS, SonarQube, Git, Postman, Figma, Axios, Responsive Web Design, Shadcn',
+      },
+    ],
+    link: '',
+  },
+  {
+    category: 'Cooperative student',
+    title: 'Machine Learning Engineer at Erudite co, Ld.',
+    date: 'Apr 2023 - Nov 2023',
+    projects: [
+      {
+        name: '',
+        detail: [
+          'I have been working on a project on trading strategies using Machine Learning like Reinforcement Learning, Random Forest, In addition, I have implemented various trading strategies to meet customer needs.',
+        ],
+        link: '',
+        skills:
+          'Python, Git, Pandas, Numpy, Kedro, Machine Learning Fundamentals',
       },
     ],
     link: '',
