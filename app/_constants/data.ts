@@ -1,6 +1,6 @@
 export const INFO = {
   tel: '0844614414',
-  email: 'jib.thepjutha@gmail.com',
+  email: 'thepjutha.w@gmail.com',
   location: 'Bangkok, Thailand',
   fullName: 'Thepjutha Wanniyom',
   nickName: 'Jib',
