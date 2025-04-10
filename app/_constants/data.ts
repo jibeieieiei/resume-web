@@ -66,7 +66,7 @@ export const WORK_EXPERIENCES = [
   {
     category: 'Full Time',
     title: 'Software Engineer at Erudite co, Ld.',
-    date: 'Jun 2024 - Present',
+    date: 'Jun 2024 - Feb 2025',
     projects: [
       {
         name: 'PWA Web Application',
