@@ -49,14 +49,16 @@ export const TOOLS = [
   },
   {
     category: 'Frameworks',
-    detail: 'NextJS, React, TailwindCSS, FastAPI',
+    detail: 'Next.js, React, TailwindCSS, FastAPI, NestJS',
   },
   {
-    category: 'Tools',
-    detail: 'Git, Postman, Markdown, SonarQube, Figma',
+    category: 'Tools & Platforms',
+    detail:
+      'Git, Postman, Markdown, SonarQube, Figma, Docker, VPS (Deployment)',
   },
+
   {
-    category: 'Other',
+    category: 'Data & Pipelines',
     detail: 'Pandas, Numpy, Kedro',
     // Data Science: Time Series Model, Scikit-Learn, Reinforcement Learning, Random Forest
   },
@@ -75,17 +77,17 @@ export const WORK_EXPERIENCES = [
         ],
         link: '',
         skills:
-          'NextJS, TypeScript, TailwindCSS, Git, Figma, Responsive Web Design, Shadcn',
+          'Next.js, TypeScript, TailwindCSS, Git, Figma, Responsive Web Design, Shadcn',
       },
       {
-        name: 'GLO Web Application (In Progress)',
+        name: 'GLO Web Application',
         detail: [
           'Developing a web application for the back-office system of The Government Lottery Office (GLO).',
           'Including creating page layouts follow by design, creating various components such as tables and sidebar, generating customizable PDFs for contract creation and API integrations.',
         ],
         link: '',
         skills:
-          'NextJS, TypeScript, TailwindCSS, SonarQube, Git, Postman, Figma, Axios, Responsive Web Design, Shadcn',
+          'Next.js, TypeScript, TailwindCSS, SonarQube, Git, Postman, Figma, Axios, Responsive Web Design, Shadcn',
       },
     ],
     link: '',
@@ -113,12 +115,20 @@ export const WORK_EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: 'Full-stack Todo App with Dockerized Deployment',
+    detail: [
+      'A full-stack Todo application where the frontend is built using Next.js and the backend is developed with NestJS and MongoDB. Both services are containerized using Docker and orchestrated with Docker Compose. The application is deployed on a Virtual Private Server (VPS) for production.',
+    ],
+    link: 'https://todoapp.thepjutha.xyz',
+    mt: '',
+  },
+  {
     title: 'Thai Stock Forecasting using Time Series Model (Senior Project)',
     detail: [
       'The purpose of this study is creating a stock forecast website, mainly Thai stocks in SET50index. In addition to using a Time Series model due to its fine sequential data, developing the website by adding various features such as trading strategies, Backtesting, etc. ',
     ],
     link: 'https://github.com/jibeieieiei/frontend-th-forecasting',
-    mt: '',
+    mt: 'print:mt-[84px]',
   },
   {
     title: 'Kulony (Web Application using React)',
@@ -126,7 +136,7 @@ export const PROJECTS = [
       'Kulony, which stands for Kasetsart University and colony, is the online community for KU personnels. It is the place where people discuss and share their campus lifestyles such as recommended subjects, trendy food  and other matters within the university. JavaScript, React, HTML and CSS are used in the project.',
     ],
     link: 'https://github.com/KUlony',
-    mt: 'print:mt-[84px]',
+    mt: '',
   },
   {
     title: 'Coffee Shop Reservation (Web Application using React)',

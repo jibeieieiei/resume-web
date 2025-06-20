@@ -12,7 +12,7 @@ const Tools = () => {
         {TOOLS.map((item) => (
           <li className="w-full" key={item.category}>
             <div className="flex gap-2">
-              <span className="w-28">{item.category}:</span>
+              <span className="w-40">{item.category}:</span>
               <span>{item.detail}</span>
             </div>
           </li>
